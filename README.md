@@ -1,5 +1,5 @@
 # Sağ Click ile Pdf'i Resime Dönüştürün
-Pdf dosyalarını farenin sağ tuşu ile resme dönüştürüp kaydeden ve ilk sayfanın resmini clipboard'a kopyalayan uygulama
+Pdf dosyalarını farenin sağ tuşu ile resme dönüştürüp kaydeden ve açılan inputa girdiğiniz sayfa numarasının resmini kaydeden ve clipboard'a kopyalayan uygulama
 
 Öncelikle aşağıdaki kütüphaneleri kurun
 - pip install pywin32
