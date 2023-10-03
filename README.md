@@ -3,7 +3,9 @@ Pdf dosyalarını farenin sağ tuşundan bat dosyasına gönderin, uygulama aç�
 
 Python kurmak istemeyenler için Build.7z dosyasını indirip aşağıdaki gif gibi farenin sağ tuşuna ekleme metoduyla veya pdf dosyasını app.exe'nin üstüne sürükleyerek kullanabilirisiniz.
 
+https://github.com/matasoy/rigthclick_pdftoimg/blob/97c3a8dc18f85ac6cbd8003a7a4f468311b537c9/pdftopng.gif
 
+https://github.com/matasoy/rigthclick_pdftoimg/blob/97c3a8dc18f85ac6cbd8003a7a4f468311b537c9/regedit_I2p6p341Sr.jpg
 
 Öncelikle aşağıdaki kütüphaneleri kurun
 - pip install pywin32
