@@ -1,4 +1,4 @@
-# rigthclick_pdftoimg
+# Sağ Click ile Pdf'i Resime Dönüştürün
 Pdf dosyalarını farenin sağ tuşu ile resme dönüştürüp kaydeden ve ilk sayfanın resmini clipboard'a kopyalayan uygulama
 
 Öncelikle aşağıdaki kütüphaneleri kurun
