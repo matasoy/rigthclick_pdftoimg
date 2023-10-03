@@ -7,7 +7,7 @@ Python kurmak istemeyenler için Build.7z dosyasını indirip aşağıdaki gif g
 
 ![Sağ Klik Menüsüne Yerleştirme](https://github.com/matasoy/rigthclick_pdftoimg/blob/97c3a8dc18f85ac6cbd8003a7a4f468311b537c9/regedit_I2p6p341Sr.jpg)
 
-Öncelikle aşağıdaki kütüphaneleri kurun
+Python ile kullanmak isteyenler öncelikle aşağıdaki kütüphaneleri kurun
 - pip install pywin32
 - pip install pdf2image
 - pip install tk
