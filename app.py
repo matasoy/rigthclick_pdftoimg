@@ -3,16 +3,26 @@ import sys #to get parameter from bat file
 from io import BytesIO
 import win32clipboard
 from PIL import Image
+import tkinter as tk
+from tkinter import simpledialog
 
 yol = sys.argv[1]
 print(yol)
 
 pdf_images = convert_from_path(yol)
 say=0
+def winput(title, sentence):    
+    tk.Tk().withdraw()
+    y = simpledialog.askinteger(title, sentence)
+    return y
+
+x = winput("Hangi Sayfa", "Resim olarak kopyalayacağınız sayfa numarasını yazın.")
+
+
 for idx in range(len(pdf_images)):
-    say=say+1
-    pdf_images[idx].save('pdf_page_'+ str(idx+1) +'.png', 'PNG')
-    if say==1:
+    say=say+1    
+    if say==x:
+        pdf_images[idx].save('pdf_page_'+ str(idx+1) +'.png', 'PNG')
         def send_to_clipboard(clip_type, data):
             win32clipboard.OpenClipboard()
             win32clipboard.EmptyClipboard()
