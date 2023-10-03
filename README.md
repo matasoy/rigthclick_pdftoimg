@@ -1,6 +1,10 @@
 # Sağ Click ile Pdf'i Resime Dönüştürün
 Pdf dosyalarını farenin sağ tuşundan bat dosyasına gönderin, uygulama açılan inputa girdiğiniz sayfa numarasının resmini kaydeder ve clipboard'a kopyalar
 
+Python kurmak istemeyenler için Build.7z dosyasını indirip aşağıdaki gif gibi farenin sağ tuşuna ekleme metoduyla veya pdf dosyasını app.exe'nin üstüne sürükleyerek kullanabilirisiniz.
+
+
+
 Öncelikle aşağıdaki kütüphaneleri kurun
 - pip install pywin32
 - pip install pdf2image
