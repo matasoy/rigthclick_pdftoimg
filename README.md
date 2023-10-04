@@ -1,11 +1,14 @@
 # Sağ Tuş ile Pdf'i Açmadan Resime Dönüştürün
 Pdf dosyalarını farenin sağ tuşundan bat dosyasına gönderin, uygulama açılan inputa girdiğiniz sayfa numarasının resmini kaydeder ve clipboard'a kopyalar
 
-Python kurmak istemeyenler için Build.7z dosyasını indirip aşağıdaki gif gibi farenin sağ tuşuna ekleme metoduyla veya pdf dosyasını app.exe'nin üstüne sürükleyerek kullanabilirisiniz.
+Python kurmak istemeyenler için Build.7z dosyasını indirip aşağıdaki gif gibi farenin sağ tuşuna ekleme metoduyla veya pdf dosyasını app.exe'nin üstüne sürükleyerek kullanabilirisiniz. Hareketli görüntüde tüm dosyaların sağ tuşuna ekleme görülmekte.
 
 ![Kullanım Şekli](https://github.com/matasoy/rigthclick_pdftoimg/blob/97c3a8dc18f85ac6cbd8003a7a4f468311b537c9/pdftopng.gif)
 
-![Sağ Klik Menüsüne Yerleştirme](https://github.com/matasoy/rigthclick_pdftoimg/blob/97c3a8dc18f85ac6cbd8003a7a4f468311b537c9/regedit_I2p6p341Sr.jpg)
+Sadece PDF dosyalarına eklemek isterseniz regeditte "HKEY_CLASSES_ROOT\SystemFileAssociations\.pdf\shell" yoluna aşağıdaki resimdeki gibi BAT dosyasını veya EXE dosyasının yolunu girmeniz yeterlidir.
+
+![Sağ Klik Menüsüne Yerleştirme](https://github.com/matasoy/rigthclick_pdftoimg/blob/main/sag_klik.jpg)
+
 
 Python ile kullanmak isteyenler öncelikle aşağıdaki kütüphaneleri kurun
 - pip install pywin32
